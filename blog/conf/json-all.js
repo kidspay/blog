@@ -57,7 +57,7 @@ const getInfo = async function () {
           location.replace("en-cours")
       }
       if(data.blog[x].status == "2") {
-          location.replace("")
+          location.replace("maintenance")
       }
     }
   }
