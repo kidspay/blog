@@ -19,7 +19,7 @@ const getInfo2 = async function () {
       let number = i
 
       //Afficher les articles
-      $('div#news-posts.row').append('<div class="col-md-6 ftco-animate fadeInUp ftco-animated"> <div class="blog-entry"> <a href="'+ url +'" class="img d-flex align-items-end" style="background-image: url('+ img +'/?'+ category.substr(2) +');"> <div class="overlay"></div> </a> <div class="text pt-3"> <p class="meta d-flex"><span class="pr-3">'+ category.substr(2) +'</span><span class="ml-auto pl-3">'+ date.substr(0, 10) +'</span></p> <h3><a href="'+ url +'">'+ title.substr(0, 50) +'...</a></h3> <p class="mb-0"><a href="'+ url +'" target="_blank" class="btn-custom">Read More <span class="icon-arrow_forward ml-4"></span></a></p> </div> </div> </div>');
+      $('div#news-posts.row').append('<div class="col-md-6 ftco-animate fadeInUp ftco-animated"> <div class="blog-entry"> <a href="'+ url +'" target="_blank" class="img d-flex align-items-end" style="background-image: url('+ img +'/?'+ category.substr(2) +');"> <div class="overlay"></div> </a> <div class="text pt-3"> <p class="meta d-flex"><span class="pr-3">'+ category.substr(2) +'</span><span class="ml-auto pl-3">'+ date.substr(0, 10) +'</span></p> <h3><a href="'+ url +'" target="_blank">'+ title.substr(0, 50) +'...</a></h3> <p class="mb-0"><a href="'+ url +'" target="_blank" class="btn-custom">Read More <span class="icon-arrow_forward ml-4"></span></a></p> </div> </div> </div>');
     }
   }
     else { // Sinon afficher une erreur et son status
