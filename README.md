@@ -16,7 +16,7 @@ Ce blog est connecté aux api du New York Times et utilise plusieurs fichiers JS
 Grâce à ce nouveau système de blog, nous avons optimisé la rapidité de nos blog et économisé beaucoup de stockage sur nos serveurs.
 Ce projet est toujours en cours de développement donc n'hésitez pas à nous contacter ou à contribuer au code du blog KidsPay pour avoir un blog solide et doté des dernières technologies et fonctionnalités sur le marché.<br>
 
-# KidsPay Blog
+# KidsPay Blog [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=D%C3%A9couvrez%20le%20Blog%20KidsPay,%20le%20premier%20blog%20au%20monde%20qui%20n%27utilise%20pas%20de%20base%20donn%C3%A9es.&url=https://kidspay.github.io/blog/&via=github&hashtags=blockchain,blog,json,kidspay,api)
 
 **[KidsPay Blog :](https://github.com/kidspay/blog)**  
 
