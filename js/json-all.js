@@ -9,7 +9,7 @@ const getInfo = async function () {
       let posts = data.blog.length;
 
       // Afficher toutes les valeurs depuis 100
-    for (let i = data.blog.length - data.blog.length; i < data.blog.length; i++) {
+    for (let i = data.blog.length - 1; i > data.blog.length - data.blog.length -1; i--) {
       // Définir les valeurs
       let id = data.blog[i].id
       let img = data.blog[i].img

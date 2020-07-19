@@ -3,7 +3,7 @@
   "blog": [
     {
       "id": "0",
-      "title": "La Blockchain, une technologie révolutionnaire",
+      "title": "Bitcoin là ou tout à commencé",
       "category": "Blockchain",
       "tag": "crypto-monnaie",
       "status": "0",
@@ -12,8 +12,8 @@
       "img_author": "https://scontent-cdg2-1.cdninstagram.com/v/t51.2885-19/s150x150/106122227_698002297720703_5738219398522881222_n.jpg?_nc_ht=scontent-cdg2-1.cdninstagram.com&_nc_ohc=dSRocsEdBO0AX97nyha&oh=6d96fcc9c73a0f3449832a9d628f1ecd&oe=5F3AD0E1",
       "about_athor": "Bonjour, je suis <strong>Keany Vy KHUN</strong>, fondateur de KidsPay. J'ai crée KidsPay en 2020 dans l'objectif de résoudre les différents problèmes que rencontrent les systèmes de paiements acutuels sur le marché.",
       "date": "2020-07-16",
-      "url": "blog/blockchain",
-      "img": "img-blog/blockchain.png",
+      "url": "blog/bitcoin",
+      "img": "img-blog/bitcoin.png",
       "body": [
         {
           "title": "Subtitle",
@@ -63,7 +63,7 @@
     },
     {
       "id": "2",
-      "title": "Bitcoin là ou tout à commencé",
+      "title": "La Blockchain, une technologie révolutionnaire",
       "category": "Blockchain",
       "tag": "crypto-monnaie",
       "status": "0",
@@ -72,8 +72,8 @@
       "img_author": "https://scontent-cdg2-1.cdninstagram.com/v/t51.2885-19/s150x150/106122227_698002297720703_5738219398522881222_n.jpg?_nc_ht=scontent-cdg2-1.cdninstagram.com&_nc_ohc=dSRocsEdBO0AX97nyha&oh=6d96fcc9c73a0f3449832a9d628f1ecd&oe=5F3AD0E1",
       "about_athor": "Bonjour, je suis <strong>Keany Vy KHUN</strong>, fondateur de KidsPay. J'ai crée KidsPay en 2020 dans l'objectif de résoudre les différents problèmes que rencontrent les systèmes de paiements acutuels sur le marché.",
       "date": "2020-07-16",
-      "url": "blog/bitcoin",
-      "img": "img-blog/bitcoin.png",
+      "url": "blog/blockchain",
+      "img": "img-blog/blockchain.png",
       "body": [
         {
           "title": "Subtitle",

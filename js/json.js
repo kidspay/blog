@@ -10,7 +10,7 @@ const getInfo = async function () {
       document.getElementById('posts').innerHTML = '<strong class="number" data-number="'+posts+'">'+posts+'</strong>';
 
       // Afficher toutes les valeurs depuis 100
-    for (let i = data.blog.length - data.blog.length; i < 3; i++) {
+    for (let i = data.blog.length - 1; i > data.blog.length - 4; i--) {
       // Définir les valeurs
       let id = data.blog[i].id
       let img = data.blog[i].img
