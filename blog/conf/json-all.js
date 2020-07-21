@@ -9,7 +9,11 @@ const getInfo = async function () {
       let posts = data.blog.length;
       let nullx = 0
       var x = location.hash.substr(1, 1000);
+      var urlcourante = self.location.href.split('#'+x+'').length>1;
       // Afficher toutes la valeur max
+      if(urlcourante == false) {
+        location.replace("404")
+      }
     for (let i = x; i < x + 1; i++) {
       // Définir les valeurs
       let img = data.blog[x].img
@@ -50,7 +54,7 @@ const getInfo = async function () {
       document.getElementById('text_7').innerHTML = '<p>'+ text_7 +'</p>';
       document.getElementById('name_author').innerHTML = '<h3>'+ author +'</h3>';
       document.getElementById('about_athor').innerHTML = '<p>'+ about_athor +'</p>';
-      document.getElementById('img_author').innerHTML = '<img src="'+ img_author +'" style="width: 200px; height: auto; border-radius: 50px;" alt="Image placeholder" class="img-fluid">';
+      document.getElementById('img_author').innerHTML = '<img src="'+ img_author +'" style="width: 200px; height: auto; border-radius: 50px;" class="img-fluid">';
       document.getElementById('tag-bottom-blog').innerHTML = '<a href="#" class="tag-cloud-link">'+ tag +'</a>';
 
       if(data.blog[x].status == "0") {

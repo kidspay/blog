@@ -16,9 +16,9 @@
       "img": "img-blog/bitcoin.png",
       "body": [
         {
-          "title": "Subtitle",
+          "title": "Introduction",
+          "text_1": "Tout commence après la crise des subprimes, et la faillite de la banque <a href='https://fr.wikipedia.org/wiki/Lehman_Brothers' target='_blank' title='Lehman Brothers'>Lehman Brothers</a>. <br>Ce qui a démontré que les  que le système financier actuel rencontrait de nombreux problèmes. <br><br>Le système d'échange Bitcoin s'est principalement inspiré des projets comme HashCash (1997), B-money (1998), RPOW (2004) ou encore Bitgold (2008).",
           "subtitle": "Test",
-          "text_1": "Hello World !",
           "img_1": "../img-blog/img-posts/bitcoin-1.png",
           "text_2": "botoom image",
           "text_3": "subtitle 2",
